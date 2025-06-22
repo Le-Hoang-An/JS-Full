@@ -1,0 +1,10 @@
+.text{
+    display: flex;
+    align-items: center;
+}
+a{
+    padding-right: 10px;
+}
+button{
+    margin-bottom: 30px;
+}
