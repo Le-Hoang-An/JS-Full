@@ -42,11 +42,12 @@ function playGame(playerMove) {
           <img src="../img/${computerMove}-emoji.png" class="img">
           Computer
         `;
+  localStorage.setItem("score", JSON.stringify(score));
   loadData();
   //   alert(`You chose ${playerMove}. Computer chose ${computerMove}.\n${result}
   // Wins: ${score.win}, Losses: ${score.lose}, Ties: ${score.ties}`);
 
-  localStorage.setItem("score", JSON.stringify(score));
+
 }
 
 function pickComputerMove() {
